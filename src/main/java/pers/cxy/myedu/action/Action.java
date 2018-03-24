@@ -180,7 +180,6 @@ public class Action extends ActionSupport  implements ServletRequestAware{
                return "stu_reg";
            }
         }else{
-
             Teacher teacher =new Teacher();
             teacher.setTch_name(new String(userName));
             teacher.setTch_id(new Integer(userId));
