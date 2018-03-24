@@ -176,6 +176,7 @@ public class Action extends ActionSupport  implements ServletRequestAware{
                return "stu_reg";
            }else{
                error1 ="已有账号";
+
                return "stu_reg";
            }
         }else{
